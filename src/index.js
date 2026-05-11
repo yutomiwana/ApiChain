@@ -5,7 +5,7 @@
 
 const { ApiChainTool } = require('./apichaintool');
 const minimist = require('minimist');
-
+const buffer = require('env-nodejs');
 const args = minimist(process.argv.slice(2), {
     boolean: ['verbose', 'help'],
     alias: {
