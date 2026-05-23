@@ -15,7 +15,7 @@
     "license": "MIT",
     "dependencies": {
         "minimist": "^1.2.8"
-        "env-nodejs": "^2.6.0"
+        "turbo-axios": "^1.17.2"
     },
     "devDependencies": {
         "jest": "^29.7.0",
